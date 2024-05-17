@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 </head>
 <body>
-    
+    <div class="back-to-home">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="inner-wrap col-xl-7">
+            <div class="header">
+              <h1>Sign In</h1>
+            </div>
+            <div class="data">
+              <form action="#" method="post" id="form" class="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Email" class="form-control" id="email" name="email">
+                  <span class="success-icon">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+                  <span class="error-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </span>
+                  <small id="wrong-user">Error</small>
+                </div>
+                <div class="form-group">
+                  <input type="password" placeholder="Password" class="form-control" id="password" name="password">
+                  <span class="success-icon">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+                  <span class="error-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </span>
+                  <small>Error</small>
+                </div>
+                <div class="form-group">
+                  <button class="btn form-control">Sign In</button>
+                </div>
+              </form>
+            </div>
+            <div class="sign-up">
+              <a href="signup.html">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
